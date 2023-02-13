@@ -35,7 +35,7 @@ namespace ConsoleApp23
             }
             return -1;
         }
-    }
+   
     static bool IsInvalidElement(char[,] map)
     {
         string allowedCharacters = ".█╬═╦╩║╣╠╗╝╚╔";
@@ -56,5 +56,5 @@ namespace ConsoleApp23
 
         return false;
     }
-
+    }
 }
